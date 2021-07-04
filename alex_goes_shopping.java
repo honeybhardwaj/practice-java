@@ -16,7 +16,7 @@ public class alex_goes_shopping {
             int k = in.nextInt();
             int count = 0;
             for(int i=0;i<n;i++){
-                if(arr[i]%a==0){
+                if(a%arr[i]==0){
                     count++;
                 }
                 System.out.println(count);
