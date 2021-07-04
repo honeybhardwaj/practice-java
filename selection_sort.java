@@ -1,6 +1,5 @@
-package com.company;
+package com.Coding_Blocks;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class selection_sort {

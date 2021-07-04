@@ -1,4 +1,4 @@
-package com.company;
+package com.Coding_Blocks;
 
 import java.util.*;
 public class Manmohan_loves_pattern_2 {

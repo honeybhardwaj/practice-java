@@ -1,6 +1,5 @@
-package com.company;
+package com.Coding_Blocks;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class product_of_array_except_self {

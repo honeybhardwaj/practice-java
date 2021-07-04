@@ -1,4 +1,4 @@
-package com.company;
+package com.Coding_Blocks;
 
 import java.util.ArrayList;
 import java.util.Arrays;
