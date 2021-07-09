@@ -1,8 +1,10 @@
 package com.Coding_Blocks;
 
+import java.io.OptionalDataException;
+
 public class stack {
-    private int[] arr;
-    private int tos;
+    protected int[] arr;
+    protected int tos;
 
     public stack(){
         this.arr=new int[5];
