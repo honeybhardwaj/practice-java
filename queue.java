@@ -1,9 +1,9 @@
 package com.Coding_Blocks;
 
 public class queue {
-    private int[] arr;
-    private int front;
-    private int size;
+    protected int[] arr;
+    protected int front;
+    protected int size;
 
     public queue(){
         arr= new int[5];
