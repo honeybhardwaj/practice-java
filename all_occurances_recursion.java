@@ -35,27 +35,4 @@ public class all_occurances_recursion {
             return all(arr,index+1,count,item);
         }
     }
-
-    public static class stringpermutation_recursion {
-        public static void main(String[] args) {
-            System.out.println(perm("abc"));
-        }
-        public static ArrayList<String> perm(String str){
-            if (str.isEmpty()) {
-                ArrayList<String> ans = new ArrayList<>();
-                ans.add("");
-                return ans;
-            }
-            ArrayList<String> sp = perm(str.substring(1));
-            ArrayList<String> ans = new ArrayList<>();
-            char ch = str.charAt(0);
-
-            for (String ele : sp) {
-                for (int i = 0; i <= ele.length(); i++) {
-                    ans.add(ele.substring(0, i) + ch + ele.substring(i));
-                }
-            }
-            return ans;
-        }
-    }
 }
